@@ -47,6 +47,16 @@ top: -10px;
 color: #690;
 }
 
+blockquote:after {
+display: block;
+content: "\201d";
+font: bold 120px "Times New Roman", serif;
+position: absolute;
+right: 20px;
+bottom: -50px;
+color: #690;
+}
+
 
 
 #pseudo-wrap1 {
@@ -289,6 +299,7 @@ ul#menu li a:hover,ul#menu li a.current
 body { font-size:12px; }
 blockquote { font-size:16px; }
 blockquote:before { font-size:80px;}
+blockquote:after { font-size:80px;}
 #footer { font-size: 11px; }
 #attribution { font-size: 10px; }
 
@@ -299,6 +310,3 @@ ul#menu li { display: block; text-align:left; margin:0 0 0 20%;}
 ul#menu li a { display: block; background-color:#fff;}
 ul#menu li a:hover { background-color:#690; color:#fff;}
 ul#menu li a.current, ul#menu li a.active:hover {    background-color:#eee;  color: #000;}
-
-
-
